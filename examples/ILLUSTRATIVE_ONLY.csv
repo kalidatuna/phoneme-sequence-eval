@@ -1,0 +1,7 @@
+item,locale,reference_phones,predicted_phones
+demo-01,en-US,HH AH0 L OW1,HH AH0 L OW1
+demo-02,en-US,W ER1 D,W UH1 D
+demo-03,en-US,T EH1 S T,T EH1 S
+demo-04,fr-FR,K A N E,K A N E
+demo-05,fr-FR,S Y N,S U N
+demo-06,en-US,M IH1 K S,M IH1 K S AH0

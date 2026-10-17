@@ -1,0 +1,178 @@
+{
+  "metric_definition": "Levenshtein unit-cost phone error rate, micro-averaged by reference phone count",
+  "phone_tokenization": "Unicode NFC plus whitespace; stress stripped only when requested",
+  "ignore_stress": false,
+  "overall": {
+    "items": 6,
+    "reference_phones": 22,
+    "total_edits": 4,
+    "substitutions": 2,
+    "deletions": 1,
+    "insertions": 1,
+    "exact_matches": 2,
+    "exact_sequence_accuracy": 0.3333333333333333,
+    "phone_error_rate": 0.18181818181818182
+  },
+  "by_locale": {
+    "en-US": {
+      "items": 4,
+      "reference_phones": 15,
+      "total_edits": 3,
+      "substitutions": 1,
+      "deletions": 1,
+      "insertions": 1,
+      "exact_matches": 1,
+      "exact_sequence_accuracy": 0.25,
+      "phone_error_rate": 0.2
+    },
+    "fr-FR": {
+      "items": 2,
+      "reference_phones": 7,
+      "total_edits": 1,
+      "substitutions": 1,
+      "deletions": 0,
+      "insertions": 0,
+      "exact_matches": 1,
+      "exact_sequence_accuracy": 0.5,
+      "phone_error_rate": 0.14285714285714285
+    }
+  },
+  "worst_items": [
+    {
+      "item": "demo-02",
+      "locale": "en-US",
+      "reference_phone_count": 3,
+      "predicted_phone_count": 3,
+      "substitutions": 1,
+      "deletions": 0,
+      "insertions": 0,
+      "distance": 1,
+      "exact_match": 0,
+      "reference_phones": [
+        "W",
+        "ER1",
+        "D"
+      ],
+      "predicted_phones": [
+        "W",
+        "UH1",
+        "D"
+      ]
+    },
+    {
+      "item": "demo-05",
+      "locale": "fr-FR",
+      "reference_phone_count": 3,
+      "predicted_phone_count": 3,
+      "substitutions": 1,
+      "deletions": 0,
+      "insertions": 0,
+      "distance": 1,
+      "exact_match": 0,
+      "reference_phones": [
+        "S",
+        "Y",
+        "N"
+      ],
+      "predicted_phones": [
+        "S",
+        "U",
+        "N"
+      ]
+    },
+    {
+      "item": "demo-03",
+      "locale": "en-US",
+      "reference_phone_count": 4,
+      "predicted_phone_count": 3,
+      "substitutions": 0,
+      "deletions": 1,
+      "insertions": 0,
+      "distance": 1,
+      "exact_match": 0,
+      "reference_phones": [
+        "T",
+        "EH1",
+        "S",
+        "T"
+      ],
+      "predicted_phones": [
+        "T",
+        "EH1",
+        "S"
+      ]
+    },
+    {
+      "item": "demo-06",
+      "locale": "en-US",
+      "reference_phone_count": 4,
+      "predicted_phone_count": 5,
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 1,
+      "distance": 1,
+      "exact_match": 0,
+      "reference_phones": [
+        "M",
+        "IH1",
+        "K",
+        "S"
+      ],
+      "predicted_phones": [
+        "M",
+        "IH1",
+        "K",
+        "S",
+        "AH0"
+      ]
+    },
+    {
+      "item": "demo-01",
+      "locale": "en-US",
+      "reference_phone_count": 4,
+      "predicted_phone_count": 4,
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "distance": 0,
+      "exact_match": 1,
+      "reference_phones": [
+        "HH",
+        "AH0",
+        "L",
+        "OW1"
+      ],
+      "predicted_phones": [
+        "HH",
+        "AH0",
+        "L",
+        "OW1"
+      ]
+    },
+    {
+      "item": "demo-04",
+      "locale": "fr-FR",
+      "reference_phone_count": 4,
+      "predicted_phone_count": 4,
+      "substitutions": 0,
+      "deletions": 0,
+      "insertions": 0,
+      "distance": 0,
+      "exact_match": 1,
+      "reference_phones": [
+        "K",
+        "A",
+        "N",
+        "E"
+      ],
+      "predicted_phones": [
+        "K",
+        "A",
+        "N",
+        "E"
+      ]
+    }
+  ],
+  "model_inference_performed": false,
+  "billing_observed": null
+}
